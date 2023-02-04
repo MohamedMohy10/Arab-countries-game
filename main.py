@@ -29,11 +29,11 @@ if lang_prompt == "english":  # English
             # write country name on its location on map
             text.write_name(name=answer, x_position=country_info.x, y_position=country_info.y)
             inserted_countries.append(answer)  # add the answer to the inserted_countries list
-        # prompt the user again
-        answer = screen.textinput(title=f"{len(inserted_countries)}/22 country", prompt="Enter a country name").title()
 
         if len(inserted_countries) >= 22:  # when user enters all countries >> exit
             break
+        # prompt the user again
+        answer = screen.textinput(title=f"{len(inserted_countries)}/22 country", prompt="Enter a country name").title()
 
 
 else:  # Arabic  # Default mode
@@ -48,10 +48,12 @@ else:  # Arabic  # Default mode
             country_info = data[data.country == answer]
             text.write_name(name=answer, x_position=country_info.x, y_position=country_info.y)
             inserted_countries.append(answer)
-            answer = screen.textinput(title=f"{len(inserted_countries)}/22 دولة ", prompt="اكتب اسم دولة").title()
 
         if len(inserted_countries) >= 22:
             break
+
+        answer = screen.textinput(title=f"{len(inserted_countries)}/22 دولة ", prompt="اكتب اسم دولة").title()
+
 
 if len(inserted_countries) < 22:  # if user failed to enter all the 22 countries
     countries_missed = list(set(country_list) - set(inserted_countries))       # get the missed countries
