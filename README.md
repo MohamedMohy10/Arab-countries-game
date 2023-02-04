@@ -4,6 +4,8 @@ Educational game for children, helps them to learn about the 22 Arabic countries
 
 ## Languages
 The game is available in Arabic (Default) and English language 
+![image](https://user-images.githubusercontent.com/61654046/216782854-dc0b1f97-66ac-41b8-9529-f6faed66e52d.png)
+
 
 ## How it works 
 The user is asked to type the prefered language as written on the prompt
