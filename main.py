@@ -48,7 +48,7 @@ else:  # Arabic  # Default mode
             country_info = data[data.country == answer]
             text.write_name(name=answer, x_position=country_info.x, y_position=country_info.y)
             inserted_countries.append(answer)
-            answer = screen.textinput(title=f"{len(inserted_countries)}/22 country", prompt="Enter a country name").title()
+            answer = screen.textinput(title=f"{len(inserted_countries)}/22 دولة ", prompt="اكتب اسم دولة").title()
 
         if len(inserted_countries) >= 22:
             break
