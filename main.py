@@ -58,7 +58,13 @@ else:  # Arabic  # Default mode
 if len(inserted_countries) < 22:  # if user failed to enter all the 22 countries
     countries_missed = list(set(country_list) - set(inserted_countries))       # get the missed countries
     pd.DataFrame(countries_missed).to_csv("missed countries.csv")  # put them in a csv file
+else:  # User has completed the map >> win
+    if lang_prompt == "english":  # english congratulations message
+        text.congrats_en()
+    else:  # arabic congratulations
+        text.congrats_ar()
 
+    screen.exitonclick()
 
 
 
