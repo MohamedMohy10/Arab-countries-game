@@ -8,7 +8,7 @@ The game is available in Arabic (Default) and English language
 ## How it works 
 The user is asked to type the language he wants to user .. he must write it correctly as written on the prompt
 
-Then, he is asked to enter a country name (one of the 22 arab countries) : if he wrote it correctly - : the name is written on the map 
+Then, he is asked to enter a country name (one of the 22 arab countries) : if he wrote it correctly >> the name is written on the map 
 
 The game ends when the user enters all the 22 countries OR when he types 'Exit'
 
