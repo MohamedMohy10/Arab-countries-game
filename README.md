@@ -19,7 +19,11 @@ The game ends when the user enters all the 22 countries OR when he types 'Exit' 
 if he did not manage to enter all the countries then a csv file with the countries he missed will be created to revise them 
 
 
-![image](https://user-images.githubusercontent.com/61654046/216782917-e31ead4c-65f8-43e7-a72d-73b981a16b84.png)
+![image](https://user-images.githubusercontent.com/61654046/216783186-a8bf17bb-7c76-47b3-b7e0-29ab5ec220c4.png)
+
+![image](https://user-images.githubusercontent.com/61654046/216783235-fa247c1c-fcb6-4cd0-8db5-d08863c1d975.png)
+
+
 
 
 ## IMPORTANT:
