@@ -13,3 +13,6 @@ Then, he is asked to enter a country name (one of the 22 arab countries) : if he
 The game ends when the user enters all the 22 countries OR when he types 'Exit' or 'خروج' in arabic 
 
 if he did not manage to enter all the countries then a csv file with the countries he missed will be created to revise them 
+
+## IMPORTANT:
+Make sure that pandas library is installed 
