@@ -18,5 +18,9 @@ The game ends when the user enters all the 22 countries OR when he types 'Exit' 
 
 if he did not manage to enter all the countries then a csv file with the countries he missed will be created to revise them 
 
+
+![image](https://user-images.githubusercontent.com/61654046/216782917-e31ead4c-65f8-43e7-a72d-73b981a16b84.png)
+
+
 ## IMPORTANT:
 Make sure that pandas library is installed 
