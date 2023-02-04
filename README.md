@@ -30,4 +30,4 @@ if he did not manage to enter all the countries then a csv file with the countri
 Make sure that pandas library is installed 
 
 
-###### The map image is taken from Wikipedia
+###### The map img is taken from Wikipedia with some edits 
