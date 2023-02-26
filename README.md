@@ -1,5 +1,7 @@
 # Arab-countries-game
-Educational game for children, helps them to learn about the 22 Arabic countries in Middle east and Africa through practice
+A Simple educational game using Python and Turtle graphics, It aims to make children familiar with
+the geography of the 22 Arabic countries through interaction and practice.
+
 
 
 ## Languages
